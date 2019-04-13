@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/edavidaja
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://edavidaja.com
+  * I am edavidaja (https://keybase.io/edavidaja) on keybase.
+  * I have a public key ASDP-zZ510_P1p8hM282a0gxaDAwG74VcPscm3UDVa8A4wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203dd27e87a0e75bd6fdb808cd71ef5d0a375ca611862cbe0aac36fe346eb097e70a",
+      "host": "keybase.io",
+      "kid": "0120cffb3679d74fcfd69f21336f366b48316830301bbe1570fb1c9b750355af00e30a",
+      "uid": "3e6ca879270cd6ee27b3a5359f0a6819",
+      "username": "edavidaja"
+    },
+    "merkle_root": {
+      "ctime": 1555168461,
+      "hash": "9aaa86ddcbe8c71767beaaebe615ad3b9ee2584c07451b982f13bdca6bfdd9ea774d5d30056d129c82005c3101a19383946290f901c7ead636f5c26de2cbb977",
+      "hash_meta": "9fbca14f707e08ad938e40a45174e62a9289616a8204a636ff0c5d1a3bb29d73",
+      "seqno": 5160682
+    },
+    "service": {
+      "entropy": "Y1jqQffgbEPZ/mOXmyZsqYQE",
+      "hostname": "edavidaja.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1555168472,
+  "expire_in": 504576000,
+  "prev": "717d7f1f1527f21914ac8f5fe27f90cf6f085d278a109f6cb8bfec9fc8bd427d",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz/s2eddPz9afITNvNmtIMWgwMBu+FXD7HJt1A1WvAOMKp3BheWxvYWTESpcCG8QgcX1/HxUn8hkUrI9f4n+Qz28IXSeKEJ9suL/sn8i9Qn3EIGniar4BbxmeBeAKvCcUJejcFzUCOLKXHdbNig9+LWOlAgHCo3NpZ8RAv6EtEPxY3V2bEaJvmmbs69v+IJgFadsVTGmc+1dx11YyKMVtzOo3DKkZR4EQ8/d7h3LQvyhQigxgvNIiMcToCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGW890zmvJ4D44voOGml6toax1pfCNbhuSchuDa4iJHFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/edavidaja
+
+==================================================================
