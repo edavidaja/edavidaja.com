@@ -1,6 +1,7 @@
 yum install -y wget
 
-wget https://github.com/gohugoio/hugo/releases/download/v0.48/hugo_0.48_Linux-64bit.tar.gz
-tar -xzf hugo_0.48_Linux-64bit.tar.gz
+wget https://github.com/gohugoio/hugo/releases/download/v0.55.1/hugo_0.55.1_Linux-64bit.tar.gz
+tar -xzvf hugo_0.55.1_Linux-64bit.tar.gz
 
+echo \n############################## \nstarting hugo:\n ############################
 ./hugo
