@@ -43,20 +43,20 @@ disqusShortname = "edavidaja"
     weight = 2
     url = "https://gitlab.com/edavidaja/"
 [[params.social]]
-    name = "Email"
-    icon = "fas fa-envelope"
-    weight = 3
-    url = "mailto:e.david.aja@gmail.com"
-[[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
-    weight = 4
+    weight = 3
     url = "https://www.linkedin.com/in/edavidaja/"
 [[params.social]]
-    name = "Telegram"
-    icon = "fab fa-telegram"
+    name = "Email"
+    icon = "fas fa-envelope"
+    weight = 4
+    url = "mailto:e.david.aja@gmail.com"
+[[params.social]]
+    name = "keybase"
+    icon = "fab fa-keybase"
     weight = 5
-    url = "https://telegram.me/edavidaja"
+    url = "https://keybase.io/edavidaja"
 
 # [[menu.main]]
 #     name = "Blog"
