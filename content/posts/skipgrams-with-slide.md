@@ -10,6 +10,7 @@ blog](https://juliasilge.com/blog/) is a frequent reference for me when
 doing tidy text analysis. Yesterday, I was working on detecting unusual
 bigrams in a corpus of restaurant reviews, and remembered that Julia had
 written a `slide_windows()` function to simplify preparing skipgrams for
+computing pointwise mutual information via
 `widyr::pairwise_pmi()`.
 
 Here’s the code original code to compute skip grams:
