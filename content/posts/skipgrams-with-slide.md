@@ -8,12 +8,12 @@ In addition to the the essential [Tidy Text Mining With
 R](https://www.tidytextmining.com/), [Julia Silge’s personal
 blog](https://juliasilge.com/blog/) is a frequent reference for me when
 doing tidy text analysis. Yesterday, I was working on detecting unusual
-bigrams in a corpus of restaurant reviews, and remembered that Julia had
-written a `slide_windows()` function to simplify preparing skipgrams for
+bigrams in a corpus of restaurant reviews, and remembered a blog post featuring
+a `slide_windows()` function to simplify preparing skipgrams for
 computing pointwise mutual information via
 `widyr::pairwise_pmi()`.
 
-Here’s the code original code to compute skip grams:
+Here’s the [original sliding windows code](https://juliasilge.com/blog/word-vectors-take-two/):
 
 ```r
 library(tidytext)
@@ -56,7 +56,6 @@ slide_windows <- function(tbl, doc_var, window_size) {
 }
 ```
 
-
 Here’s what it returns on a trivial data set:
 
 ```r
@@ -83,8 +82,8 @@ test %>%
 ```
 
 The function name gave me an idea: I could use Davis Vaughan’s
-[`{slide}`](https://davisvaughan.github.io/slide/index.html) as an
-another way to compute the necessary sliding windows. Slide is
+[`{slide}`](https://davisvaughan.github.io/slide/index.html) as
+another way to compute the necessary sliding windows. {slide} is
 especially exciting if you’ve ever had to do rolling computations with
 business calendars, but it is, as advertised, quite general-purpose.
 
