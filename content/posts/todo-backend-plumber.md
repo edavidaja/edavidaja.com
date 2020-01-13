@@ -34,7 +34,9 @@ the plumber docs illustrate how to do this for `Access-Control-Allow-Origin`, bu
 
 ## connecting to the database
 
-Following the [12-factor best practice](https://12factor.net/config), the database connection information is stored in an `.Renviron` file.[^no-dotenv-ppa]
+Following the [12-factor best practice](https://12factor.net/config), the database connection information is accessed through environment variables.
+For development, these are stored in an `.Renviron` file[^no-dotenv-ppa], which both git and docker are instructed to ignore.
+
 I went through several rounds of testing where I would try the database functions interactively, they would work as expected, and then once I built and deployed the container the database connection would fail.
 A solution to this problem is to [use a pool.](https://github.com/rstudio/pool)
 
