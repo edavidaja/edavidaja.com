@@ -1,6 +1,6 @@
 ---
 title: "the fivethirtyeight urban index"
-date: 2020-20-03T23:10:00-04:00
+date: 2020-04-19T23:10:00-04:00
 draft: false
 ---
 
