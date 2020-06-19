@@ -51,7 +51,7 @@ disqusShortname = "edavidaja"
     name = "Email"
     icon = "fas fa-envelope"
     weight = 4
-    url = "mailto:e.david.aja@gmail.com"
+    url = "mailto:self@edavidaja.com"
 [[params.social]]
     name = "keybase"
     icon = "fab fa-keybase"
