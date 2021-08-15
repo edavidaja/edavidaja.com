@@ -1,60 +1,58 @@
 baseurl = "https://edavidaja.com"
 title = "E. David Aja"
-
-theme = "coder"
-
+theme = "hugo-coder"
 languagecode = "en"
-
 paginate = 20
 canonifyurls = true
-
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-
-disqusShortname = "edavidaja"
+# disqusShortname = "edavidaja"
+enableEmoji= true
 
 [params]
     author = "E. David Aja"
     description = "David Aja's website"
-    keywords = "blog,data science,rlang"
+    keywords = "blog,data science,rstats"
     info = "data person."
-    avatarurl = "images/edavidaja.jpg"
+    avatarurl = "/img/edavidaja.jpg"
+    # gravatar = "edavidaja@hey.com"
     footercontent = ""
-
     dateformat = "January 2, 2006"
-
     hideCredits = false
     hideCopyright = true
-
     rtl = false
-
-    # Custom CSS
+    colorScheme = "auto"
     custom_css = []
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/edavidaja/"
 [[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
+    name = "Twitter"
+    icon = "fa fa-twitter fa-2x"
     weight = 2
-    url = "https://gitlab.com/edavidaja/"
+    url = "https://twitter.com/peeltothepithy"
+[[params.social]]
+    name = "Telegram"
+    icon = "fa fa-telegram fa-2x"
+    weight = 2
+    url = "https://telegram.me/edavidaja"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/edavidaja/"
 [[params.social]]
     name = "Email"
-    icon = "fas fa-envelope"
+    icon = "fa fa-envelope"
     weight = 4
-    url = "mailto:self@edavidaja.com"
+    url = "edavidaja@hey.com"
 [[params.social]]
     name = "keybase"
-    icon = "fab fa-keybase"
+    icon = "fa fa-keybase fa-2x"
     weight = 5
     url = "https://keybase.io/edavidaja"
 
