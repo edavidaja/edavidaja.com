@@ -146,9 +146,9 @@ However, using it with docker can be pretty slow.
 
 Building a [container](https://github.com/edavidaja/todo-backend-plumber/blob/3f8620e3df777feda742ea73c4d1b4b921db53d4/Dockerfile) by running `renv::restore()` took about 16 minutes.[^sysreqs]
 
-{{< figure src="img/docker-build-renv-start.png" alt="start of docker build with renv">}} 
+{{< figure src="/img/docker-build-renv-start.png" alt="start of docker build with renv">}} 
 
-{{< figure src="img/docker-build-renv.png" alt="16 minutes later">}} 
+{{< figure src="/img/docker-build-renv.png" alt="16 minutes later">}} 
 
 There is an article on the renv website about how to [speed up package builds when using docker](https://rstudio.github.io/renv/articles/docker.html), but figuring out how to make use of the renv cache will have to be another blog post.
 
@@ -158,9 +158,9 @@ PPAs are "personal package archives".
 In this case, the relevant personal archives are supplied by Dirk Eddelbuettel and Michael Rutter, and they contain R packages that can be installed as binaries rather than being compiled from source.
 To use them, I switched to the `rocker/r-ubuntu` [image](https://github.com/edavidaja/todo-backend-plumber/blob/master/Dockerfile) and installed the relevant packages via `apt-get`.
 
-{{< figure src="img/docker-build-ppa-start.png" alt="start of docker build with ppa">}} 
+{{< figure src="/img/docker-build-ppa-start.png" alt="start of docker build with ppa">}} 
 
-{{< figure src="img/docker-build-ppa.png" alt="2.5 minutes later">}}
+{{< figure src="/img/docker-build-ppa.png" alt="2.5 minutes later">}}
 
 The build time drops to about 2.5 minutes.
 If you're paying for build minutes or worried about build timeouts, give `rocker/r-ubuntu` a look.
