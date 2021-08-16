@@ -15,3 +15,8 @@ pineapple gomme syrup, 3/4 oz
 lime juice, 1/2 oz  
 
 shake over ice, strain, and serve.
+
+## notes
+
+- Tiber has a particularly assertive bittnerness, and seems less sweet than Campari, which makes for a good pairing with the sweetness and mouthfeel of the pineapple gomme.
+- The pineapple gomme is made with the Cocktail Codex recipe.
