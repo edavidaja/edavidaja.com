@@ -4,7 +4,7 @@ date: 2023-05-06T11:10:00-04:00
 draft: false
 ---
 
-{{< figure src="/img/mom-water.jpg" alt="cans of mom water" >}}
+![mom-water](/img/mom-water.jpg)
 
 Have you ever wanted to know what marketing tastes like?  Grab a box of Mom Water for your next party. Your guests will love the eye-catching pastels and the delightful schtick of flavors named for women of a certain age:
 
