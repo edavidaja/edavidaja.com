@@ -7,7 +7,7 @@ draft: false
 Merry Christmas!  
 I got you a swing-top glass bottle.  
 
-![cordial](/img/cordial.pnd)
+![cordial](/img/cordial.png)
 
 Use of the bottle's content is optional, but here are some serving suggestions:
 
