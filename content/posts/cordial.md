@@ -4,8 +4,8 @@ date: 2023-12-241T18:25:00-04:00
 draft: false
 ---
 
-Merry Christmas!
-I got you a swing-top glass bottle.
+Merry Christmas!  
+I got you a swing-top glass bottle.  
 
 ![cordial](/img/cordial.pnd)
 
@@ -13,26 +13,25 @@ Use of the bottle's content is optional, but here are some serving suggestions:
 
 ## Gimlet
 
-2 oz gin
-.5 oz lime cordial
+2 oz gin  
+.5 oz lime cordial  
 
-shake over ice, strain, and serve.
+shake over ice, strain, and serve.  
 
 ## "Paloma"
 
-2 oz mezcal
-.5 oz grapefruit cordial
+2 oz mezcal  
+.5 oz grapefruit cordial  
 
-shake over ice, strain, and serve.
+shake over ice, strain, and serve.  
 
 ## "Italian Soda"
 
-.5 oz cordial
-11 oz sparkling water
+.5 oz cordial  
+11 oz sparkling water  
 
-pour cordial and sparkling water into a highball glass.
-stir and serve.
-
+pour cordial and sparkling water into a highball glass.  
+stir and serve.  
 
 ## Cordial
 
