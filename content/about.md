@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2024-09-23T23:00:00-04:00
+date: 2024-09-23T22:00:00-04:00
 slug: "about"
 draft: false
 ---
