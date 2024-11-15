@@ -7,7 +7,6 @@ canonifyurls = true
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-# disqusShortname = "edavidaja"
 enableEmoji= true
 
 [params]
@@ -26,35 +25,30 @@ enableEmoji= true
     custom_css = []
 
 [[params.social]]
+    name = "Bluesky"
+    icon = "fa-brands fa-bluesky fa-2x"
+    weight = 1
+    url = "https://bsky.app/profile/edavidaja.com"
+[[params.social]]
+    name = "Mastodon"
+    icon = "fa-brands fa-mastodon fa-2x"
+    weight = 2
+    url = "https://mastodon.xyz/@edavidaja.com@bsky.brid.gy"
+[[params.social]]
     name = "Github"
     icon = "fa fa-github fa-2x"
-    weight = 1
+    weight = 3
     url = "https://github.com/edavidaja/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter fa-2x"
-    weight = 2
-    url = "https://twitter.com/peeltothepithy"
-[[params.social]]
-    name = "Telegram"
-    icon = "fa fa-telegram fa-2x"
-    weight = 2
-    url = "https://telegram.me/edavidaja"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin fa-2x"
-    weight = 3
+    weight = 4
     url = "https://www.linkedin.com/in/edavidaja/"
 [[params.social]]
     name = "Email"
-    icon = "fa fa-envelope"
-    weight = 4
-    url = "mailto:edavidaja@hey.com"
-[[params.social]]
-    name = "keybase"
-    icon = "fa fa-keybase fa-2x"
+    icon = "fa fa-envelope fa-2x"
     weight = 5
-    url = "https://keybase.io/edavidaja"
+    url = "mailto:edavidaja@hey.com"
 
 [[menu.main]]
     name = "About"
@@ -64,11 +58,3 @@ enableEmoji= true
     name = "Blog"
     weight = 2
     url  = "/posts/"
-# [[menu.main]]
-#     name = "Projects"
-#     weight = 3
-#     url = "/projects/"
-# [[menu.main]]
-#     name = "Contact me"
-#     weight = 5
-#     url = "/contact/"
