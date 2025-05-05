@@ -1,0 +1,66 @@
+provider,Location,Address,lat,long
+1,Gravelly Point,"Gravelly Point, Arlington, VA 22202",38.8648345,-77.0380323
+1,56 Signers of the Declaration of Independence Memorial,"1836 Constitution Ave NW, DC 20006",38.8920599,-77.0431585
+1,Capitol Building,"101 East Capitol St NE, DC 20543",38.8898213,-77.0059061
+1,Korean War Veterans Memorial,"900 Ohio Dr SW, DC 20024",38.8813836,-77.0328328
+1,Lafayette Square,"1601 Pennsylvania Ave NW, DC 20001",38.899525,-77.0365411
+1,Lincoln Memorial,"2 Lincoln Memorial Cir NW, DC 20002",38.8892686,-77.050176
+1,"Martin Luther King, Jr. National Memorial","1964 Independence Ave SW, DC 20004",38.886149,-77.0442461
+1,National Archives,"700 Pennsylvania Avenue NW, DC 20408",38.892861,-77.0230716
+1,National Law Enforcement Officers Memorial,"444 E St NW, DC 20001",38.8959398,-77.0172683
+1,National Museum of American History,"1300 Constitution Ave NW, DC 20560",38.8913376,-77.0299409
+1,National Seabee Memorial,"1 Memorial Ave, Fort Myer, VA 22211",38.8825834,-77.0686609
+1,Thomas Jefferson Memorial,"16 E Basin Dr SW, DC 20024",38.8813748,-77.0365665
+1,Washington Monument,"2 15th St NW, DC 20024",38.8894839,-77.0352791
+2,Gravelly Point,"Gravelly Point, Arlington, VA 22202",38.855565,-77.052138
+2,56 Signers of the Declaration of Independence Memorial,"1836 Constitution Ave NW, DC 20006",38.892108,-77.04298
+2,Capitol Building,"101 East Capitol St NE, DC 20543",38.889822,-77.002429
+2,Korean War Veterans Memorial,"900 Ohio Dr SW, DC 20024",38.887914,-77.04785
+2,Lafayette Square,"1601 Pennsylvania Ave NW, DC 20001",38.89872,-77.035692
+2,Lincoln Memorial,"2 Lincoln Memorial Cir NW, DC 20002",38.889264,-77.050157
+2,"Martin Luther King, Jr. National Memorial","1964 Independence Ave SW, DC 20004",38.888273,-77.044376
+2,National Archives,"700 Pennsylvania Avenue NW, DC 20408",38.89288,-77.022961
+2,National Law Enforcement Officers Memorial,"444 E St NW, DC 20001",38.895962,-77.017861
+2,National Museum of American History,"1300 Constitution Ave NW, DC 20560",38.891326,-77.030731
+2,National Seabee Memorial,"1 Memorial Ave, Fort Myer, VA 22211",38.884977,-77.062621
+2,Thomas Jefferson Memorial,"16 E Basin Dr SW, DC 20024",38.881571,-77.036834
+2,Washington Monument,"2 15th St NW, DC 20024",38.889472,-77.035266
+3,Gravelly Point,"Gravelly Point, Arlington, VA 22202",38.8650368,-77.0395133
+3,56 Signers of the Declaration of Independence Memorial,"1836 Constitution Ave NW, DC 20006",38.8920184,-77.0424113
+3,Capitol Building,"101 East Capitol St NE, DC 20543",38.889729,-77.005756
+3,Korean War Veterans Memorial,"900 Ohio Dr SW, DC 20024",38.8813016,-77.0321377
+3,Lafayette Square,"1601 Pennsylvania Ave NW, DC 20001",38.89884,-77.03927
+3,Lincoln Memorial,"2 Lincoln Memorial Cir NW, DC 20002",38.8901227,-77.0495511
+3,"Martin Luther King, Jr. National Memorial","1964 Independence Ave SW, DC 20004",38.889395,-77.040308
+3,National Archives,"700 Pennsylvania Avenue NW, DC 20408",38.8927368,-77.0229201
+3,National Law Enforcement Officers Memorial,"444 E St NW, DC 20001",38.8959519,-77.0172455
+3,National Museum of American History,"1300 Constitution Ave NW, DC 20560",38.8912397,-77.0300205
+3,National Seabee Memorial,"1 Memorial Ave, Fort Myer, VA 22211",NA,NA
+3,Thomas Jefferson Memorial,"16 E Basin Dr SW, DC 20024",NA,NA
+3,Washington Monument,"2 15th St NW, DC 20024",38.889865,-77.033036
+4,Gravelly Point,"Gravelly Point, Arlington, VA 22202",NA,NA
+4,56 Signers of the Declaration of Independence Memorial,"1836 Constitution Ave NW, DC 20006",38.892039920215,-77.04239112166
+4,Capitol Building,"101 East Capitol St NE, DC 20543",NA,NA
+4,Korean War Veterans Memorial,"900 Ohio Dr SW, DC 20024",NA,NA
+4,Lafayette Square,"1601 Pennsylvania Ave NW, DC 20001",NA,NA
+4,Lincoln Memorial,"2 Lincoln Memorial Cir NW, DC 20002",NA,NA
+4,"Martin Luther King, Jr. National Memorial","1964 Independence Ave SW, DC 20004",NA,NA
+4,National Archives,"700 Pennsylvania Avenue NW, DC 20408",38.893565619567,-77.02305485156
+4,National Law Enforcement Officers Memorial,"444 E St NW, DC 20001",38.896076618477,-77.017421564996
+4,National Museum of American History,"1300 Constitution Ave NW, DC 20560",NA,NA
+4,National Seabee Memorial,"1 Memorial Ave, Fort Myer, VA 22211",NA,NA
+4,Thomas Jefferson Memorial,"16 E Basin Dr SW, DC 20024",NA,NA
+4,Washington Monument,"2 15th St NW, DC 20024",NA,NA
+5,Gravelly Point,"Gravelly Point, Arlington, VA 22202",38.86381,-77.04121
+5,56 Signers of the Declaration of Independence Memorial,"1836 Constitution Ave NW, DC 20006",38.892055790553,-77.043097099702
+5,Capitol Building,"101 East Capitol St NE, DC 20543",38.889753880349,-77.00584982605
+5,Korean War Veterans Memorial,"900 Ohio Dr SW, DC 20024",38.881309357882,-77.032140212614
+5,Lafayette Square,"1601 Pennsylvania Ave NW, DC 20001",38.898831564043,-77.036555949724
+5,Lincoln Memorial,"2 Lincoln Memorial Cir NW, DC 20002",38.919694676556,-77.006465436019
+5,"Martin Luther King, Jr. National Memorial","1964 Independence Ave SW, DC 20004",38.886297721828,-77.044326326365
+5,National Archives,"700 Pennsylvania Avenue NW, DC 20408",38.89283263073,-77.022940319508
+5,National Law Enforcement Officers Memorial,"444 E St NW, DC 20001",38.895963648751,-77.017861640555
+5,National Museum of American History,"1300 Constitution Ave NW, DC 20560",38.891250043591,-77.029992685202
+5,National Seabee Memorial,"1 Memorial Ave, Fort Myer, VA 22211",38.882862274929,-77.067967904384
+5,Thomas Jefferson Memorial,"16 E Basin Dr SW, DC 20024",38.880391525586,-77.034707807181
+5,Washington Monument,"2 15th St NW, DC 20024",38.889477,-77.035086

@@ -2,12 +2,18 @@ baseurl = "https://edavidaja.com"
 title = "E. David Aja"
 theme = "hugo-coder"
 languagecode = "en"
-paginate = 20
 canonifyurls = true
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 enableEmoji= true
+ignoreFiles = [ "\\.qmd$", "renv/.*"]
+
+[pagination]
+pagerSize = 20
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
     author = "E. David Aja"
@@ -58,3 +64,9 @@ enableEmoji= true
     name = "Blog"
     weight = 2
     url  = "/posts/"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"

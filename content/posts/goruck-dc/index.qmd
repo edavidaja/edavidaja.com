@@ -1,0 +1,101 @@
+---
+title: "GORUCK City Ruck: DC"
+subtitle: Data, AI, and touching grass
+date: 2025-05-05T20:30:00-04:00
+tags: ["ai"]
+format: hugo-md
+draft: false
+lightbox: true
+---
+
+Over the weekend, I did the GORUCK 12 Mile City Ruck in DC.
+
+```{=html}
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="14367953091" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+```
+
+It was my first one so I didn't know anything about the route ahead of time, nor did anyone on my team.
+At check-in, a list of waypoints was taped to a table.
+
+![waypoints-1](/img/goruck-dc/waypoints-1.jpg){group="waypoints"}
+![waypoints-2](/img/goruck-dc/waypoints-2.jpg){group="waypoints"}
+![waypoints-3](/img/goruck-dc/waypoints-3.jpg){group="waypoints"}
+![waypoints-4](/img/goruck-dc/waypoints-4.jpg){group="waypoints"}
+
+
+During the briefing, we learned that you are allowed to visit the waypoints in any order.
+The order they were listed in seemed like a recipe for needless mileage, so this was a relief.
+
+```{r}
+library(dplyr)
+library(purrr)
+library(tidygeocoder)
+library(magrittr, include.only = "%T>%")
+library(leaflet)
+
+waypoints <- readr::read_delim("waypoints.csv", delim = "|", trim_ws = TRUE) |>
+    select(Location, Address)
+
+geo_providers <- c("google", "mapbox", "osm", "census", "arcgis")
+geocoded <-
+    map(
+        .x = geo_providers,
+        ~ geocode(waypoints, Address, method = .x)
+        ) |> 
+    list_rbind(names_to = "provider") %T>%
+    readr::write_csv("waypoints_geocoded.csv")
+
+geocoded_waypoints <-
+    readr::read_csv("waypoints_geocoded.csv")
+
+geocoded_waypoints |> 
+    filter(provider == 2) |> 
+    leaflet() |> 
+        addTiles() |> 
+        addMarkers(~long, ~lat, popup = ~Location)
+```
+
+If you're familiar with DC geography, a few of these points will appear wrong to you in subtle (or glaring!) ways. Let's clean it up:
+
+```{r}
+lol <- tribble(
+    ~Location, ~lat, ~long,
+    "Gravelly Point", 38.865537513788496, -77.03777076583343,
+    "Capitol Building", 38.89007191031991, -77.00827228253716,
+    "Martin Luther King, Jr. National Memorial", 38.88616691159861, -77.04424409367498
+)
+
+geocoded_waypoints |> 
+    filter(provider == 2) |>
+    rows_update(lol) |> 
+    leaflet() |> 
+        addTiles() |> 
+        addMarkers(~long, ~lat, popup = ~Location)
+```
+
+
+Better enough.
+
+If you've never heard of rucking, it's walking around with a weighted backpack.
+I needed to carry 20 pounds of weight and 3 liters of water--about 26 pounds.
+While the suffering associated with marching this weight around was entirely voluntary, I nevertheless believed it was in my interest to hit all the relevant waypoints while covering as little distance as possible.
+
+
+
+Classical:
+I started entering points in Google maps, but it turns out that it won't let you navigate to more than 8 destinations.[^2]
+
+My prompt:
+> Plan the optimal route between the waypoints. The course starts and ends at gravelly point
+
+Gemini 2.5 flash https://g.co/gemini/share/fbe588880d33
+Gemini 2.5 Pro https://g.co/gemini/share/6f8eec719ff4
+Claude 3.7 Sonnet 
+
+Someone else in the party said he had looked it up with chatgpt at the time so I didn't use that. I tried to do it as part of drafting this post but apparently I exhausted my upload limit on the free tier. 
+(I have Gemini pro because my phone folds in half.)
+
+[^1]: I started doing it during the pandemic because I needed to do cardio but didn't feel like running. I avoided referring to it as rucking for as long as I plausibly could because I found the militarism of it all vaguely distasteful.
+	
+
+[^2]: A limitation it turns out Gemini is not aware of.
